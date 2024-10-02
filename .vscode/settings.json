@@ -1,5 +1,4 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
-    "java.compile.nullAnalysis.mode": "automatic",
-    "xml.downloadExternalResources.enabled": true
+    "java.compile.nullAnalysis.mode": "automatic"
 }

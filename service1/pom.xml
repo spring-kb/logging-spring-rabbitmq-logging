@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>microservices</groupId>
-		<artifactId>tracing-spring-zipkin</artifactId>
+		<artifactId>spring-rabbitmq-logging</artifactId>
 		<version>1.0</version>
 	</parent>
 	<groupId>microservices</groupId>
@@ -19,6 +19,14 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-hibernate5-jakarta</artifactId>
 		</dependency>
 	</dependencies>
 </project>
